@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    min-height: 990px;
+    background: white;
+}
+
+.menu{
+    float: left;
+    width: 640px;
+    height: 49px;
+    background: transparent;
+    background: transparent;
+}
+
+.navbar{
+    float: left;
+    position: absolute;
+    width: 1280px;
+    height: 50px;
+    left: 125px;
+    top: 65px;
+    background: transparent;
+}
+
+.logo{
+    float: left;
+    width: 640px;
+    height: 50px;
+    background: transparent;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    position: relative;
+    top: 15px;
+    left: 325px;
+    display: inline;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.part1{
+    position: absolute;
+    width: 1280px;
+    height: 474px;
+    left: 125px;
+    top: 239px;
+    background: transparent;
+}
+
+
+.part2{
+    float: left;
+    width: 640px;
+    height: 480px;
+    background: transparent;
+}
+
+.text{
+    width: 640px;
+    height: 474px;
+    background: transparent;
+    float: left;
+}
+
+.paragraph1{
+    position: absolute;
+    width: 627px;
+    height: 120px;
+    top: 77px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.paragraph2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 580px;
+    height: 70px;
+    top: 212px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    margin: 15px 0px 25px 0px;
+}
+
+.text input{
+    width: 250px;
+    height: 35px;
+    position: absolute;
+    bottom: 115px;
+    box-sizing: border-box;
+    border: 0.625px solid black;
+    box-shadow: 2px 3px 6px lightgray;
+    border-radius: 3.12px;
+}
+
+.text button{
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    bottom: 115px;
+    left: 260px;
+    background: #2251d5;
+    box-shadow: 2px 3px 6px lightgray;
+    border-color: #21429e;
+    border-radius: 3.12px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: white;
+}
