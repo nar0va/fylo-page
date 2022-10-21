@@ -20,7 +20,7 @@ body{
 .navbar{
     float: left;
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 50px;
     left: 125px;
     top: 65px;
@@ -104,12 +104,13 @@ body{
 .text input{
     width: 250px;
     height: 35px;
-    bottom: 115px;
     position: absolute;
+    top: 325px;
     box-sizing: border-box;
-    border: 0.625px solid #07043B;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
-    border-radius: 3.125px;
+    border-radius: 2px;
+    border: 1px solid white; 
+    padding-left: 20px;
 }
 
 .text button{
@@ -134,13 +135,13 @@ body{
 .page2{
     position: relative;
     width: 100%;
-    height: 855px;
+    height: 830px;
     background: transparent;
 }
 
 .background{
     width: 100%;
-    height: 855px;
+    height: inherit;
     position: absolute;
     left: 0%;
     right: 0%;
@@ -263,4 +264,291 @@ body{
 .quote b img{
     position: absolute;
     left: -50px;
+}
+
+.footer1{
+    width: 100%;
+    height: 369px;
+    background: rgba(87, 89, 136, 1);
+    position: relative;
+}
+
+.footer1_left{
+    width: 759px;
+    height: inherit;
+    background: transparent;
+    float: left;
+}
+
+.footer1_right{
+    width: 759px;
+    height: inherit;
+    background: transparent;
+    float: left;
+}
+
+.footer1_right input{
+    width: 480px;
+    height: 48px;
+    position: absolute;
+    top: 155px;
+    right: 81px;
+    padding-left: 15px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 3px;
+    border: 1px solid rgba(87, 89, 136, 1);
+}
+
+.footer1_right button{
+    width: 200px;
+    height: 48px;
+    position: relative;
+    left: 175px;
+    top: 226px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    background: red;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-color: blue;
+    border-radius: 3.125px;
+
+}
+
+.footer1_left p{
+    position: absolute;
+    height: 48px;
+    left: 40px;
+    top: 100px;
+    margin-left: 80px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer1_left span{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    top: 193px;
+    left: 120px;
+}
+
+
+
+.footer2{
+    width: 100%;
+    height: 391px;
+    background: rgba(7, 4, 59, 1);
+    position: relative;
+}
+
+.footer2_left{
+    position: absolute;
+    width: 506px;
+    height: 391px;
+    float: left;
+    background: transparent;
+    top: 0px;
+}
+
+.fylo{
+    position: absolute;
+    top: 92px;
+    left: 139px;
+}
+
+.fa-phone{
+    position: absolute;
+    width: 18px;
+    color: white;
+    top: 170px;
+    left: 83px;
+}
+
+.phone{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: white;
+    top: 148.5px;
+    left: 120px;
+}
+
+.fa-envelope-square{
+    position: absolute;
+    color: white;
+    top: 213px;
+    left: 84px;
+}
+
+.email{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: white;
+    top: 192px;
+    left: 120px;
+}
+
+.footer2_middle{
+    width: 505px;
+    height: 390px;
+    left: 506px;
+    margin: 0;
+    top: 0px;
+    background: transparent;
+    position: absolute;
+}
+
+.footer2_middle ul{
+    margin: 0;
+    padding: 0;
+}
+
+.link1{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 151px;
+    left: 120px;
+}
+
+.link2{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 167px;
+    left: 120px;
+}
+
+.link3{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 183px;
+    left: 120px;
+}
+
+.link4{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 199px;
+    left: 120px;
+}
+
+.link5{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 64px;
+    left: 320px;
+}
+
+.link6{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 80px;
+    left: 320px;
+}
+
+.link7{
+    font-family: 'Open Sans';
+    list-style-type: none;
+    position: relative;
+    color: white;
+    top: 96px;
+    left: 320px;
+}
+
+.footer2_right{
+    position: absolute;
+    width: 506px;
+    height: 391px;
+    top: 0;
+    right: 0;
+    background: transparent;
+    float: left;
+}
+
+.fa-facebook{
+    position: relative;
+    top: 4px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-instagram{
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-twitter{
+    position: relative;
+    top: 4px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.facebook{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 140px;
+    left: 80px;
+}
+
+
+.twitter{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 101px;
+    left: 120px;
+}
+
+
+.instagram{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 62px;
+    left: 160px;
+    border: 2px solid white;
+    border-radius: 50%;
 }
